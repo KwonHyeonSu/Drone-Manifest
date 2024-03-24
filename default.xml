@@ -1,0 +1,12 @@
+# default.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote
+        name="origin"
+        fetch="ssh://git@github.com"/>
+    <default revision="master" remote="origin"/>
+
+    <!-- Zyro Sensor -->
+    <project path="Item1" name="ows3090/RepoItem1"/>
+</manifest>
