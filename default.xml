@@ -3,12 +3,13 @@
     <remote
         name="origin"
         fetch="ssh://git@github.com"/>
-    <default revision="master" remote="origin"/>
+    <default revision="main" remote="origin"/>
 
     <!-- Build Script -->
     <project path="build" name="KwonHyeonSu/Drone_build"/>
 
     <!-- Zyro Sensor -->
+    <project path="src/zyro" name="KwonHyeonSu/Drone_zyro"/>
 
     <!-- xml Template -->
     <!-- <project path="Item1" name="ows3090/RepoItem1"/> -->
