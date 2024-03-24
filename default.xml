@@ -5,6 +5,12 @@
         fetch="ssh://git@github.com"/>
     <default revision="master" remote="origin"/>
 
+    <!-- Build Script -->
+    <project path="build" name="KwonHyeonSu/Drone_build"/>
+
     <!-- Zyro Sensor -->
-    <project path="Item1" name="ows3090/RepoItem1"/>
+
+    <!-- xml Template -->
+    <!-- <project path="Item1" name="ows3090/RepoItem1"/> -->
+
 </manifest>
